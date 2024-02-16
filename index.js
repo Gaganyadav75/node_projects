@@ -257,7 +257,7 @@ let seensetter = async(id,val) =>{
 
 const io = new Server(server,{
   cors: {
-      origin: 'http://localhost:5173',
+      origin: 'https://reactmessageapp.onrender.com',
       methods: ['GET', 'POST'],
     },
 });
@@ -267,7 +267,7 @@ const io = new Server(server,{
 
 
 app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "http://localhost:5173");
+  res.header("Access-Control-Allow-Origin", "https://reactmessageapp.onrender.com");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 next();
 });
