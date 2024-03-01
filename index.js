@@ -44,10 +44,10 @@ app.use(expressfileUpload())
 
 
 const pool = mysql.createPool({
-  host: "sql6.freesqldatabase.com",
-  user: "sql6684487",
-  password: "We6UhgYpqI",
-  database: "sql6684487",
+  host: "sql204.infinityfree.com",
+  user: "if0_35990425",
+  password: "BiGIS03SGPyHZw",
+  database: "if0_35990425_messagapp",
   waitForConnections: true,
   connectionLimit: 10,
   maxIdle: 10, // max idle connections, the default value is the same as `connectionLimit`
